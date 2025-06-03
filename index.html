@@ -228,14 +228,20 @@
             detail levels in the final output. The layered, compact vector representation enhances usability for further editing and modification. Comparative
             analysis with conventional vectorization methods demonstrates our technique’s superiority in producing vectors with high visual fidelity, and more
             importantly, maintaining vector compactness and manageability. -->
-            Collage techniques are commonly used in visualization to organize a collection of geometric shapes, facilitating the
-            representation of visual features holistically, as seen in word clouds or circular packing diagrams. Typically, packing methods rely on
-            object-space optimization techniques, which often necessitate customizing the optimization process to suit the complexity of geometric
-            primitives and the specific application requirements. In this paper, we introduce a versatile image-space collage technique designed to
-            pack geometric elements into a given shape. Leveraging a differential renderer and image-space losses, our optimization process is
-            highly efficient and can easily accommodate various loss functions. We demonstrate the diverse visual expressiveness of our approach
-            across various visualization applications. The evaluation confirmed the benefits of our method in terms of both visual quality and time
-            performance.
+            Collage and packing techniques are widely used to organize geometric shapes
+            into cohesive visual representations, facilitating the representation of visual
+            features holistically, as seen in image collages and word clouds. Traditional
+            methods often rely on object-space optimization, requiring intricate geometric
+            descriptors and energy functions to handle complex shapes. In this paper, we
+            introduce a versatile image-space collage technique. Leveraging a differentiable
+            renderer, our method effectively optimizes the object layout with image-space
+            losses, bringing the benefit of fixed complexity and easy accommodation of
+            various shapes. Applying a hierarchical resolution strategy in image space, our
+            method efficiently optimizes the collage with fast convergence, large coarse
+            steps first and then small precise steps. The diverse visual expressiveness of
+            our approach is demonstrated through various examples. Experimental results
+            show that our method achieves an order of magnitude speedup performance
+            compared to state-of-the-art techniques.
           </p>         
         </div>
       </div>
